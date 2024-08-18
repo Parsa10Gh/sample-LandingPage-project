@@ -15,16 +15,16 @@ const Navbar = () => {
             Brainwave.io
           </h3>
           <ul className="hidden md:flex items-center">
-            <li className="pr-2 lg:pr-4">
+            <li className="pr-2 lg:pr-4 hover:text-[#473BF0]">
               <Link href="#">Demos</Link>
             </li>
-            <li className="px-2 lg:px-4">
+            <li className="px-2 lg:px-4 hover:text-[#473BF0]">
               <Link href="#">Pages</Link>
             </li>
-            <li className="px-2 lg:px-4">
+            <li className="px-2 lg:px-4 hover:text-[#473BF0]">
               <Link href="#">Support</Link>
             </li>
-            <li className="pl-2 lg:pl-4">
+            <li className="pl-2 lg:pl-4 hover:text-[#473BF0]">
               <Link href="#">Contact</Link>
             </li>
           </ul>
