@@ -37,7 +37,7 @@ const Services = () => {
           <ServicesCard servicesCardData={cardData} />
         ))}
       </div>
-      <div id="services-opinion" className="lg:flex justify-center items-center border-b-2 border-x-slate-400 lg:px-12">
+      <div id="services-opinion" className="lg:flex justify-center items-center border-b-2 border-x-slate-400 pb-20 lg:px-12">
         <div id="opinion-img" className="w-full md:w-fit mx-auto lg:m-0 py-8 lg:py-10 xl:py-28 px-10 min-[380px]:px-24 min-[450px]:px-32 min-[520px]:px-44 sm:px-48 md:px-20 lg:px-10 xl:px-20 bg-slate500">
             <img src="oval.png" alt="web-developer" className="w-full h-full"/>
         </div>
