@@ -22,7 +22,7 @@ const Services = () => {
   return (
     <div
       id="services-container"
-      className="pt-24 px-4 sm:px-10 md:px-60 lg:px-16 xl:px-36 2xl:px-72"
+      className="pt-24 px-4 sm:px-10 md:px-32 lg:px-16 xl:px-36 2xl:px-72"
     >
       <div id="services-text" className="text-center mx-auto">
         <p className="text-[#F64B4B] text-sm font-extrabold [text-shadow:0px_4px_6px_var(--tw-shadow-color)] shadow-slate-700 pb-6">
