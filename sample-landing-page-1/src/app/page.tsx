@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/Navbar";
 import Services from "../components/services/Services";
 import Story from "../components/about/About";
 import Features from "../components/features/Features";
+import Works from "../components/works/Works";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Story/>
       <Features/>
+      <Works/>
     </>
   );
 }

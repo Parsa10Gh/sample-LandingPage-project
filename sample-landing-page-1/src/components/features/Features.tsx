@@ -38,7 +38,7 @@ const Features = () => {
 
     <div
       id="feature-container"
-      className="bg-[#f5f7fa] block relative py-12 sm:py-32 px-2 sm:px-4 md:px-8 lg:px-16 xl:px-40 2xl:px-72"
+      className="bg-[#f5f7fa] block relative pt-12 sm:pt-32 px-2 sm:px-4 md:px-8 lg:px-16 xl:px-40 2xl:px-72"
     >
         <img src="feature-design.png" alt="" className="absolute left-0 top-40 hidden md:block" />
       <div id="feature-text">
