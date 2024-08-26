@@ -1,3 +1,5 @@
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const Works = () => {
@@ -42,7 +44,10 @@ const Works = () => {
           {worksCardInfo.map(
             (card, i) =>
               (i === 0 || i === 2) && (
-                <div id="works-card" className="transition-all duration-500 hover:scale-105 hover:cursor-pointer">
+                <div
+                  id="works-card"
+                  className="transition-all duration-500 hover:scale-105 hover:cursor-pointer"
+                >
                   <img src={card.img} alt={card.subtitle} />
                   <div id="card-text" className=" pt-4 pb-8 px-8">
                     <p className="font-sans text-sm font-extralight pb-3">
@@ -58,7 +63,10 @@ const Works = () => {
           {worksCardInfo.map(
             (card, i) =>
               (i === 1 || i === 3) && (
-                <div id="works-card" className="transition-all duration-500 hover:scale-105 hover:cursor-pointer">
+                <div
+                  id="works-card"
+                  className="transition-all duration-500 hover:scale-105 hover:cursor-pointer"
+                >
                   <img src={card.img} alt={card.subtitle} />
                   <div id="card-text" className=" pt-4 pb-8 px-8">
                     <p className="font-sans text-sm font-extralight pb-3">
@@ -71,6 +79,13 @@ const Works = () => {
           )}
         </div>
       </div>
+      <Link
+        href="#"
+        className="w-fit flex mx-auto text-[#4338e2] font-bold py-2 duration-500 hover:scale-110"
+      >
+        See all works
+        <ArrowRight className="ml-5" />
+      </Link>
     </div>
   );
 };
