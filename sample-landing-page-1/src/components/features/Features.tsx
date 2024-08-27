@@ -51,8 +51,8 @@ const Features = () => {
       </div>
       <div id="feature-pros-container" className="grid sm:grid-cols-2 md:gap-x-12 gap-y-16 sm:gap-y-24 border-b-2 pb-32 xl:px-16 2xl:px-32 pt-28">
         {featureCard.map((card) => (
-          <div id="feature-pros-card" className="sm:flex">
-            <div className="flex items-center justify-center h-fit w-fit rounded-xl p-6" style={{backgroundColor: card.color}}>
+          <div id="feature-pros-card" className="text-center sm:text-left sm:flex">
+            <div className="flex items-center justify-center h-fit w-fit mx-auto sm:m-0 rounded-xl p-6" style={{backgroundColor: card.color}}>
                 <img src={card.img} alt=""  className="w-fit sm:w-20"/>
             </div>
             <div id="feature-pros-card-text" className="sm:px-8 pt-2">
@@ -62,7 +62,7 @@ const Features = () => {
           </div>
         ))}
       </div>
-      <div id="feature-startProject" className="sm:flex justify-between items-center py-6 md:py-8 lg:py-12">
+      <div id="feature-startProject" className="sm:flex justify-between items-center text-center sm:text-left py-6 md:py-8 lg:py-12">
         <div id="feature-startProject-text" className="py-8">
           <h2 className="text-2xl font-extrabold pb-5">Ready to launch your next project?</h2>
           <p className="sm:w-3/4 font-sans text-lg sm:text-justify font-extralight">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>

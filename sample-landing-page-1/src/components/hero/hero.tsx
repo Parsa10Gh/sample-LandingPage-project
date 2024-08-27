@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div id="hero-text" className="w-full md:w-6/12 md:text-left mx-auto md:m-0">
         <p className="pb-6">Let’s shift your business</p>
-        <h1 className="text-5xl font-extrabold pb-6">Shift your business <br/> fast with Shade Pro.</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold pb-6">Shift your business <br/> fast with Shade Pro.</h1>
         <p className="pb-8 md:text-justify">
           With lots of unique blocks, you can easily build a page without
           coding. Build your next consultancy website within few minutes.
