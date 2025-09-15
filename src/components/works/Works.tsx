@@ -47,6 +47,7 @@ const Works = () => {
                 <div
                   id="works-card"
                   className="transition-all duration-500 hover:scale-105 hover:cursor-pointer"
+                  key={i}
                 >
                   <img src={card.img} alt={card.subtitle} />
                   <div id="card-text" className=" pt-4 pb-8 px-8">
@@ -66,6 +67,7 @@ const Works = () => {
                 <div
                   id="works-card"
                   className="transition-all duration-500 hover:scale-105 hover:cursor-pointer"
+                  key={i}
                 >
                   <img src={card.img} alt={card.subtitle} />
                   <div id="card-text" className=" pt-4 pb-8 px-8">

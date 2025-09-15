@@ -51,8 +51,8 @@ const About = () => {
         </div>
       </div>
       <div id="about-facts" className="grid md:grid-cols-3 gap-10 py-24">
-        {aboutFacts.map((fact) => 
-          <div className="text-center">
+        {aboutFacts.map((fact,i) => 
+          <div className="text-center" key={i}>
             <h1 className="text-4xl font-mono font-extrabold py-4">{fact.title}</h1>
             <p className="font-sans text-lg font-extralight px-4">{fact.discribtion}</p>
           </div>

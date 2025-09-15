@@ -50,8 +50,8 @@ const Features = () => {
         </h2>
       </div>
       <div id="feature-pros-container" className="grid sm:grid-cols-2 md:gap-x-12 gap-y-16 sm:gap-y-24 border-b-2 pb-32 xl:px-16 2xl:px-32 pt-28">
-        {featureCard.map((card) => (
-          <div id="feature-pros-card" className="text-center sm:text-left sm:flex">
+        {featureCard.map((card,i) => (
+          <div id="feature-pros-card" className="text-center sm:text-left sm:flex" key={i}>
             <div className="flex items-center justify-center h-fit w-fit mx-auto sm:m-0 rounded-xl p-6" style={{backgroundColor: card.color}}>
                 <img src={card.img} alt=""  className="w-fit sm:w-20"/>
             </div>

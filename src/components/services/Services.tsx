@@ -33,8 +33,8 @@ const Services = () => {
         </h3>
       </div>
       <div id="services-cards" className="grid lg:grid-cols-3 gap-8 py-20">
-        {servicesCardData.map((cardData) => (
-          <ServicesCard servicesCardData={cardData} />
+        {servicesCardData.map((cardData,i) => (
+          <ServicesCard servicesCardData={cardData} key={i}/>
         ))}
       </div>
       <div id="services-opinion" className="lg:flex justify-center items-center border-b-2 border-x-slate-400 pb-20 lg:px-12">
